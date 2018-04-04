@@ -1,0 +1,48 @@
+
+OAuth 2.0: Secure Server-to-Server Communication: Spring Boot
+
+
+Source:
+https://developer.okta.com/blog/2018/04/02/client-creds-with-spring-boot
+
+he have to create an account in:
+https://developer.okta.com/
+in order to be able to configure the OAuth Authorisation Server.
+
+The files:
+application.yaml
+for the server and the client can be found in the mail box.
+Subject: OAuth_2.0: Spring Security: application.yml
+Date: 4 Apr 2018
+
+
+Create the Server - Spring Boot App:
+....................................
+
+
+curl https://start.spring.io/starter.tgz  \
+  -d artifactId=creds-example-server \
+  -d dependencies=security,web \
+  -d language=java \
+  -d type=maven-project \
+  -d baseDir=creds-example-server \
+| tar -xzvf -
+
+
+
+
+
+Create the Client - Spring Boot App:
+....................................
+
+curl https://start.spring.io/starter.tgz  \
+  -d artifactId=creds-example-client \
+  -d dependencies=security \
+  -d language=java \
+  -d type=maven-project \
+  -d baseDir=creds-example-client \
+| tar -xzvf -
+
+
+
+

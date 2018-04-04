@@ -1,0 +1,9 @@
+example:
+  baseUrl: http://localhost:8080
+  oauth2:
+    client:
+      grantType: client_credentials
+      clientId: here-put-the-value
+      clientSecret: here-put-the-value
+      accessTokenUri: here-put-the-value
+      scope: here-put-the-value

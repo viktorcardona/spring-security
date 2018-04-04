@@ -1,0 +1,7 @@
+security:
+  oauth2:
+    client:
+      clientId: here-put-the-value
+      clientSecret: here-put-the-value
+    resource:
+      tokenInfoUri: here-put-the-value
